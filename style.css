@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&family=ZCOOL+KuaiLe&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'ZCOOL KuaiLe', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+  background-color: #f4f4f4;  
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    max-width: 990px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 3rem;
+    text-decoration: none;
+    color: #000;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+span{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-left: 2rem;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-size:1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.active{
+    color: orange;
+}
+nav a:hover{
+    color: orange;
+}
