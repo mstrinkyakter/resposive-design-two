@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&family=ZCOOL+KuaiLe&display=swap');
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -51,4 +51,117 @@ nav a{
 }
 nav a:hover{
     color: orange;
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
+    .container-flex{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top: 3em;
+    }
+}
+
+@media (max-width:568px) {
+    html{
+      font-size: 12px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+/* main section  */
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.para-center{
+   margin-top: 0;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   color: orange;
+   font-weight: bold;
+   margin-bottom: .3em;
+}
+.left,.right{
+    width: 50%;
+}
+.right{
+    margin: .4em auto;
+}
+
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.mainContent p{
+    width:50% ;
+}
+.imgBox{
+    width: 30%;
+    float: left;
+    margin: .4em;
+}
+.imgContainer{
+    width: 40%;
+}
+.imgContainer img{
+    width: 100%;
+}
+
+/* media queries for main section  */
+@media (max-width:768px){
+    .mainContent{
+        flex-direction: column;
+    }
+    .mainContent p{
+        width: 100%;
+    }
+    .imgBox{
+        display: none;
+    }
+    .imgContainer{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* sicial icons  */
+.social-icons{
+    background-color: #000;
+    margin-top: .7em;
+    padding: .5em;
+    width:100% ;
+    text-align: center;
+}
+.social-icons .fa-brands{
+    color: orange;
+    padding: 0 3em;
+}
+.social-icons .fa-brands:hover{
+    color: #f4f4f4;
+}
+
+/* footer */
+.footerContainer{
+    background-color: #f4f4f4;
+}
+.footerTitle{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:0 ;
+}
+.footerContainer p{
+    color: orange;
+    text-align: center;
+    font-weight: bolder;
+    font-size: .8rem;
+    font-family: 'Poppins', sans-serif;
 }
