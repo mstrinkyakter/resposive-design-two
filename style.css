@@ -150,13 +150,23 @@ h1{
     color: #f4f4f4;
 }
 
+@media (max-width:568px) {
+    .social-icons .fa-brands{
+        padding: 0 1em;
+    }
+    .left,.right{
+        width: 100%;
+    }
+   
+}
+
 /* footer */
 .footerContainer{
     background-color: #f4f4f4;
 }
 .footerTitle{
     font-family: 'Poppins', sans-serif;
-    margin-bottom:0 ;
+    margin-bottom:0 auto;
 }
 .footerContainer p{
     color: orangered;
